@@ -1,0 +1,65 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font1: Kanit, sans-serif, coursive
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background: black url(https://images6.alphacoders.com/132/1326062.jpeg) no-repeat fixed;
+    background-size: cover;
+}
+header {
+    background-color: black;
+    height: 60px;
+}
+div#images {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    padding: 10px 40% 0px 20px;
+}
+nav {
+    display: inline-block;
+    padding: 0px 40px 0px 0px;
+    justify-self: center;
+    justify-items: center;
+}
+nav > a {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 14px;
+    text-decoration: none;
+}
+main {
+    margin: 100px 54% 0px 100px;
+}
+section > h1 {
+    font-family: var(--font1);
+    color: black;
+    text-align: justify;
+}
+section > p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section > h2 {
+    font-family: var(--font1);
+    font-weight: 600;
+}
+.circular {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 20%;
+}
